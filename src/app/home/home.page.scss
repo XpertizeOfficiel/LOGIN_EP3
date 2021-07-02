@@ -1,0 +1,249 @@
+*{
+  font-family: Roboto, sans-serif;
+}
+.custom-font {
+  color:black;
+}
+.flex{
+  display:flex;
+  justify-content:space-evenly;
+  padding-top: 1.5em;
+}
+
+ion-toolbar {
+  --background: transparent;
+
+  ion-title {
+    padding: 20px 0 46px 0;
+    font-weight: 900;
+  }
+
+  p {
+    padding: 40px 0 20px 0;
+    font-weight: 600;
+  }
+  .back-circle {
+    z-index: -1;
+    width: 250px;
+    height: 200px;
+    background: #e5ecf1;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+}
+
+ion-content {
+    --overflow:hidden;
+    overflow: auto;
+    --background: linear-gradient(rgba(202, 241, 247, 0.7), #222428);
+
+  .back-blob {
+    z-index: -1;
+    width: 600px;
+    position: absolute;
+    left: -50%;
+    top: 0;
+  }
+
+  .title_input{
+    margin-right:3em;
+    margin-bottom:0.4em;
+    color: #0070b8;
+  }
+
+  form {
+    margin-top: -1.9;
+  }
+  .wrap-input {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border:0.5px rgb(3, 3, 3) solid;
+  }
+  .input {
+    display: block;
+    width: 100%;
+    background: transparent;
+    font-size: 16px;
+    line-height: 1.2;
+    border: none;
+    outline: none;
+    height: 46px;
+    padding: 0 20px 0 23px;
+  }
+  .container-form-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hrPosition{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hrColor{
+    width: 20%;
+    background: #f7b03a;
+    font-size: large;
+    margin-top:1.5em;
+  }
+
+  .loginTitle{
+    color: #fff;
+    text-shadow: 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8;
+    font-size:25px;
+    text-align:center;
+  }
+
+  .hrefElement{
+    margin-right: 1em;
+    color:#f7b03a;
+    text-decoration: none;
+  }
+
+  .footerElement{
+    font-size: 15px;
+    color:black;
+  }
+
+  .logo{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 200px;
+    height: 48px;
+    background-color: #026cc3;
+    background: linear-gradient(90deg, #0070b8 0%, #413f3f 200%);
+    border-radius: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin-bottom:1.5em;
+    transition: all 0.4s;
+    box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.5);
+  }
+  .form-btn:hover {
+    background-color: #28333b;
+    box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.8);
+  }
+
+  .form-btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 50px;
+    height: 48px;
+    background-color: #3a5999;
+    //background: linear-gradient(90deg, #f7b03a 0%, #413f3f 200%);
+    border-radius: 50px 50px 50px 50px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin-bottom:1.5em;
+    transition: all 0.4s;
+    box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.5);
+  }
+
+
+}
+
+.container-form-btn-mail {
+  display: flex;
+  justify-content: center;
+}
+
+.form-btnMail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 20px;
+  height: 48px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding-top: 5px;
+  transition: all 0.4s;
+  border:0.5px rgb(184, 183, 183) solid;
+}
+.form-btnMail:hover {
+  background-color: #28333b;
+  box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.8);
+}
+.custom-font-mail {
+  color:black;
+}
+
+.form-btnFb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 15px;
+  height: 48px;
+  background-color: #3a5999;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding-top: 5px;
+  transition: all 0.4s;
+  border:0.5px rgb(184, 183, 183) solid;
+}
+
+.form-btnMail:hover {
+  background-color: #28333b;
+  box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.8);
+}
+.custom-font-fb {
+  color:#FFFFFF;
+}
+
+.icon_social{
+  width: 20px;margin-bottom:0.4em;
+}
+
+ion-card{
+  border-radius: 20px;
+  margin-top: 4em;
+}
+
+.flex_title{
+  display: flex;
+  justify-content: space-between;
+  h5{
+  color:#0070b8;
+  font-weight: bold;
+  }
+}
+
+.sub_element{
+  text-align: center;
+  margin-top: 1.5em;
+  color: #fff;
+  text-shadow: 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8, 0 0 2px #0070b8;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
